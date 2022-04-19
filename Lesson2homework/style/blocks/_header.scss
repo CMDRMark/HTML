@@ -1,0 +1,40 @@
+.header{
+  background-color: #222222;
+  color: white;
+  padding: 18px 0;
+  height: 75px;
+}
+.header_wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header_wrapper-left{
+  display: flex;
+  align-items:center;
+  padding-bottom: 18px;
+}
+.logo{
+  text-decoration: none;
+  color: transparent;
+  margin-right: 41px
+}
+.search_button , .menu_button{
+  background: transparent;
+  border: none;
+}
+.header_wrapper-right{
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+.cart_logo, .registry_link{
+  text-decoration: none;
+
+  color: #fff;
+}
+.registry_link{
+  margin: 0 33px;
+}
