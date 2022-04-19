@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodect Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2d955cfaf.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/Lesson2homework/style/style.css">
+</head>
+<body>
+    <header div class="header">
+        <div class="container header_wrap">
+            <div class="header_wrapper-left"> 
+                <a href="index.html" class="logo">
+                    <img src="/Lesson2homework/img/logo.svg" alt="logo">
+                </a>
+                <button class="search_button">
+                    <img src="/Lesson2homework/img/search.svg" alt="search_button">
+                </button>
+            </div>
+            <div class="header_wrapper-right">
+                <button class="menu_button">
+                    <img src="/Lesson2homework/img//menu.svg" alt="menu_button">
+                </button>
+                <a href="profile.html" class = "registry_link">
+                    <img src="/Lesson2homework/img/registry.svg" alt="registry_link">
+                </a>
+                <a href="cart.html" class="cart_logo">
+                    <img src="/Lesson2homework/img/cart.svg" alt="cart_logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="catalogue">
+        <div class="container catalogue_wrapper">
+            <h1 class="catalogue_title">SHOPPING CART</h1>
+        </div>
+    </section>
+    <section class="shopping-cart-field container">
+        <div class="selected-items-wrapper">
+            <div class="selected-items">
+                <div class="selected-item-tile">
+                    <img class="shopcart-image" src="./img/product_3.png" alt="">
+                    <div class="selected-item-info">
+                        <div class="selected-item-name">
+                            MANGO  PEOPLE  T-SHIRT
+                        </div>
+                        <ul class="selected-item-description">
+                            <li>
+                                Price:
+                                <span class="cart-price-tag">
+                                    $300
+                                </span>
+                            </li>
+                            <li>
+                                Color:
+                                <span class="cart-size-color-tag">
+                                    Red
+                                </span>
+                            </li>
+                            <li>
+                                Size:
+                                <span class="cart-size-color-tag">
+                                    XL
+                                </span>
+                            </li>
+                            <li>
+                                Quantity:
+                                <div class="cart-quantity-tag">
+                                    <span>2</span> 
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <button class="delete-item-from-cart">
+                        <i class="fa-solid fa-xl fa-x"></i>
+                    </button>
+                </div>
+                <div class="selected-item-tile">
+                    <img class="shopcart-image" src="./img/shopcart_img_2.png" alt="">
+                    <div class="selected-item-info">
+                        <div class="selected-item-name">
+                            MANGO  PEOPLE  T-SHIRT
+                        </div>
+                        <ul class="selected-item-description">
+                            <li>
+                                Price:
+                                <span class="cart-price-tag">
+                                    $300
+                                </span>
+                            </li>
+                            <li>
+                                Color:
+                                <span class="cart-size-color-tag">
+                                    Red
+                                </span>
+                            </li>
+                            <li>
+                                Size:
+                                <span class="cart-size-color-tag">
+                                    XL
+                                </span>
+                            </li>
+                            <li>
+                                Quantity:
+                                <div class="cart-quantity-tag">
+                                    <span>2</span> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="delete-item-from-cart">
+                        <i class="fa-solid fa-xl fa-x"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="cart-manipulation-buttons">
+                <button class="cart-manipulation-button">
+                    <span>CLEAR SHOPPING CART</span>
+                </button>
+                <button class="cart-manipulation-button">
+                    <span>CONTINUE SHOPPING</span>
+                </button>
+            </div>
+        </div>
+        <div class="checkout-proccess-field">
+            <form action="#" class="checkout-proccess">
+                <p class="input-info">SHOPPING ADRESS</p>
+                <label class="for-shopcart-adress-fields">
+                    <input id="shipping-country"class="shopcart-adress-field" type="text" placeholder="Bangladesh">
+                </label>
+                <label class="for-shopcart-adress-fields">
+                    <input class="shopcart-adress-field" id="shipping-state" type="text" placeholder="State">
+                </label>
+                <label class="for-shopcart-adress-fields">
+                    <input class="shopcart-adress-field" id="shipping-zip" type="text" placeholder="Postcode/Zip">
+                </label>
+                <button class="coupon-button">
+                    <span>GET A QUOTE</span>
+                </button>
+            </form>
+            <div class="proceed-to-checout-wrapper">
+                <div class="proceed-to-checout-infobox">
+                    <p class="subtotal">SUBTOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$900</p>
+                    <p class="grandtotal">GRANDTOTAL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="grandtotal-price">$900</span></p>
+                    <div class="line-checkout"></div>
+                    <button class="proceed-to-checkout-button">
+                        PROCEED TO CHECKOUT
+                    </button>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="feedback">
+        <div class="container feedback_wrapper">
+            <div class="feedback_box">
+                <img src="/Lesson2homework/img/feedback_photo.png" alt="feedback" class="feedback_image">
+                <h1 class="feedback_text">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+                </h1>
+                <h2></h2>
+            </div>
+
+            <div class="subscription_box">
+                <h1 class="subscribe_title">
+                    SUBSCRIBE <br>
+                    <span class="subscribe_subtitle"> FOR OUR NEWLETTER AND PROMOTION</span>
+                </h1>
+                <div class="subscribtion_input_box">
+                    <form action="#" class='subscribe'>
+                        <input required type="email" class="subscribe-field" placeholder="Enter Your Email"> 
+                        <button class="subscribe-submit" type="submit" value = "send">Send</button>
+                    </form>                   
+                </div>
+            </div>
+        
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer_wrap">
+            <p class = "footer_copyright">© 2021  Brand  All Rights Reserved.</p>
+            <script src="https://kit.fontawesome.com/28aa9b1bb7.js" crossorigin="anonymous"></script>
+            <div class="social">
+                <a href="#" class="social-link">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
